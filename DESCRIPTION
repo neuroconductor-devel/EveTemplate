@@ -1,14 +1,20 @@
 Package: EveTemplate
 Version: 1.0.1
 Title: JHU-MNI-ss (Eve) template
-Description: JHU-MNI-ss (Eve) template and white matter parcellation map (WMPM).
+Description: JHU-MNI-ss (Eve) template and white matter parcellation
+        map (WMPM).
 Author: Jean-Philippe Fortin, John Muschelli
 Maintainer: Jean-Philippe Fortin <fortin946@gmail.com>
-Depends:
-    oro.nifti
+Depends: oro.nifti
 License: GPL-2
 RoxygenNote: 5.0.1.9000
 LazyData: true
 URL: https://www.slicer.org/publications/item/view/1883
 BugReports: https://github.com/Jfortin1/EveTemplate/issues
-
+Repository: Neuroconductor-Devel
+Suggests: 
+    testthat,
+    covr
+Remotes: 
+    neuroconductor-devel/oro.nifti@517ce5312094bf1ecee49bd09024769d3e5d2daa
+biocViews: 
